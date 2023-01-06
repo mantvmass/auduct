@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "aee7b9bbb8b6e3ff3b938163e7adfab2",
+    "packages": [
+        {
+            "name": "auduct/framework",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mantvmass/auduct-framework.git",
+                "reference": "11d9ef1d919490126d61dde8258e5fc48212ba96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mantvmass/auduct-framework/zipball/11d9ef1d919490126d61dde8258e5fc48212ba96",
+                "reference": "11d9ef1d919490126d61dde8258e5fc48212ba96",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Illuminati\\": "src/Illuminati"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Phumin Maliwan",
+                    "email": "kliop2317@gmail.com"
+                }
+            ],
+            "description": "The Auduct Framework.",
+            "keywords": [
+                "framework"
+            ],
+            "support": {
+                "issues": "https://github.com/mantvmass/Auduct-Framework/issues",
+                "source": "https://github.com/mantvmass/Auduct-Framework"
+            },
+            "time": "2023-01-06T08:54:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "auduct/framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

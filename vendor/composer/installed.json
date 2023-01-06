@@ -1,0 +1,50 @@
+{
+    "packages": [
+        {
+            "name": "auduct/framework",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mantvmass/auduct-framework.git",
+                "reference": "11d9ef1d919490126d61dde8258e5fc48212ba96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mantvmass/auduct-framework/zipball/11d9ef1d919490126d61dde8258e5fc48212ba96",
+                "reference": "11d9ef1d919490126d61dde8258e5fc48212ba96",
+                "shasum": ""
+            },
+            "time": "2023-01-06T08:54:22+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Illuminati\\": "src/Illuminati"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Phumin Maliwan",
+                    "email": "kliop2317@gmail.com"
+                }
+            ],
+            "description": "The Auduct Framework.",
+            "keywords": [
+                "framework"
+            ],
+            "support": {
+                "issues": "https://github.com/mantvmass/Auduct-Framework/issues",
+                "source": "https://github.com/mantvmass/Auduct-Framework"
+            },
+            "install-path": "../auduct/framework"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
